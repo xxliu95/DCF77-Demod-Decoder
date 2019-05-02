@@ -1,7 +1,10 @@
 # DCF77-Demod-Decoder
 ## Decoder of the DCF77 signal to 7 segment display
 
+Este es un proyecto que hice con <a href="https://github.com/GONZALOCAPILLAPAREDES">Gonzalo</a> en 3º de carrera en una asignatura llamada Circuitos electrónicos.
 
+### Resumen
+El objetivo de este proyecto es diseñar y construir un sistema analógico/digital para demodular la señal horaria DCF77(simplificada en nuestro caso) y presentar su valor en 4 displays de 7 segmentos. El circuito analógico se realizará con componentes discretos, mientras que el hardware digital se desarrollará describiendo sus módulos en VHDL y sintetizándolo finalmente sobre la FPGA Spartan 3E contenida en la tarjeta BASYS2 del laboratorio de la Escuela.  
 
 En el display muestra la hora, y al pulsar el botón muestra la fecha.
 
